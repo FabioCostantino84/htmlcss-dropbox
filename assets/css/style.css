@@ -5,79 +5,87 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-section{
+
+section {
     padding: 3rem;
 }
 
 /* debug */
-.debug #site_header{
+.debug #site_header {
     background-color: lightgrey;
     height: 70px;
 }
 
-.debug #site_main{
+.debug #site_main {
     background-color: lightblue;
-    height: 2000px;
+    height: 3000px;
     padding: 3rem;
 }
 
-.debug #site_footer{
+.debug #site_footer {
     background-color: lightpink;
     height: 400px;
 }
 
-.debug .menù{
+.debug .menù {
     background-color: rgba(245, 180, 180, 0.486);
     height: 90%;
     width: 98%;
     margin: auto;
     align-items: center;
 }
-.debug .menù_left, .menù_rigth{
+
+.debug .menù_left,
+.menù_rigth {
     background-color: gray;
     height: 80%;
     width: 45%;
     align-items: center;
 }
-.debug .jumbotron{
+
+.debug .jumbotron {
     background-color: lightgreen;
     width: 98%;
     height: 400px;
     margin: auto;
 }
 
-.debug .container_big{
+.debug .container_big {
     background-color: lightsalmon;
     width: 70%;
     height: 98%;
     margin: auto;
 }
 
-.debug .container_med{
+.debug .container_med {
     background-color: lightsalmon;
     width: 60%;
-    height: 400px;
+    height: 600px;
     margin: auto;
 }
 
-.debug .row{
+.debug .row {
     background-color: lightgoldenrodyellow;
     width: 98%;
     height: 90%;
     margin: auto
 }
 
-.debug .col{
+.debug .more_operations>.container_med>.row>.col-4 {
+    height: 45%;
+}
+
+.debug .col {
     height: 90%;
     background-color: lightcoral;
     margin: auto;
     border: 1px dashed black
 }
 
-.debug .col-bottom{
+.debug .col-bottom {
     background-color: lightcoral;
     height: 100px;
     border: 1px dashed black
@@ -85,53 +93,55 @@ section{
 
 /* utilities */
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.d-wrap{
+.d-wrap {
     flex-wrap: wrap;
 }
 
-.jc-s_bet{
+.jc-s_bet {
     justify-content: space-between;
 }
 
-.col-3{
+.col-3 {
     width: calc(100% / 12* 3);
 }
 
-.col-4{
+.col-4 {
     width: calc(100% / 12* 4);
 }
 
-.col-8{
+.col-8 {
     width: calc(100% / 12* 8);
 }
 
-.col-bottom{
+.col-bottom {
     width: 90%;
     margin: auto;
 }
 
 /* #region header */
 
-#site_header{
+#site_header {
     height: 70px;
 }
 
-.menù{
+.menù {
     align-items: center;
 }
 
-.menù_left, .menù_rigth{
+.menù_left,
+.menù_rigth {
     align-items: center;
 }
+
 /* #endregion header */
 
 /* #region main */
 
-h1{
+h1 {
     text-align: center;
 }
 
