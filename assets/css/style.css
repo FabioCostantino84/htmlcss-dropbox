@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* debug */
+.debug #site_header{
+    background-color: lightgrey;
+    height: 70px;
+}
+
+.debug #site_main{
+    background-color: lightblue;
+    height: 400px;
+}
+
+.debug #site_footer{
+    background-color: lightpink;
+    height: 400px;
+}
+
+/* utilities */
+
+
+
+/* #region header */
+
+
+/* #endregion header */
+
+/* #region main */
+
+
+/* #endregion main */
+
+/* #region footer */
+
+
+/* #endregion footer */
