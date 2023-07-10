@@ -8,6 +8,22 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+:root {
+    --drbx-black: #010001;
+    --drbx-white: #FFFFFF;
+    --drbx-bkgr-and-square6: #B5D0E6;
+    --drbx-accent: #0160FF;
+    --drbx-square1: #A3D39A;
+    --drbx-square2-alternativeFont: #60092B;
+    --drbx-square3: #0192CE;
+    --drbx-square4: #FE1C1D;
+    --drbx-big-square: #F5F4F4;
+    --drbx-square5: #D4011F;
+    --drbx-square7: #0D2580;
+    --drbx-square8: #FED831;
+}
+
 section{
     padding: 3rem 0;
 }
@@ -110,6 +126,10 @@ section{
     justify-content: space-between;
 }
 
+.jc-end{
+    justify-content: end;
+}
+
 .col-2{
     width: calc(100% / 10* 2);
 }
@@ -148,6 +168,7 @@ section{
 .menù_left, .menù_rigth{
     align-items: center;
 }
+
 /* #endregion header */
 
 /* #region main */
