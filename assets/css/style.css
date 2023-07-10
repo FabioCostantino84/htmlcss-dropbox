@@ -20,7 +20,8 @@ section{
 
 .debug #site_main{
     background-color: lightblue;
-    height: 1000px;
+    height: 2000px;
+    padding: 3rem;
 }
 
 .debug #site_footer{
