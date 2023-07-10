@@ -1,3 +1,4 @@
+/* common */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,9 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+section{
+    padding: 3rem;
 }
 
 /* debug */
@@ -16,7 +20,7 @@ body{
 
 .debug #site_main{
     background-color: lightblue;
-    height: 400px;
+    height: 1000px;
 }
 
 .debug #site_footer{
@@ -37,17 +41,24 @@ body{
     width: 45%;
     align-items: center;
 }
-.debug .banner_up{
+.debug .jumbotron{
     background-color: lightgreen;
     width: 98%;
     height: 400px;
     margin: auto;
 }
 
-.debug .container_up{
+.debug .container_big{
     background-color: lightsalmon;
     width: 70%;
     height: 98%;
+    margin: auto;
+}
+
+.debug .container_med{
+    background-color: lightsalmon;
+    width: 60%;
+    height: 400px;
     margin: auto;
 }
 
@@ -59,9 +70,15 @@ body{
 }
 
 .debug .col{
-    height: 98%;
+    height: 90%;
     background-color: lightcoral;
     margin: auto;
+    border: 1px dashed black
+}
+
+.debug .col-bottom{
+    background-color: lightcoral;
+    height: 100px;
     border: 1px dashed black
 }
 
@@ -71,8 +88,16 @@ body{
     display: flex;
 }
 
+.d-wrap{
+    flex-wrap: wrap;
+}
+
 .jc-s_bet{
     justify-content: space-between;
+}
+
+.col-3{
+    width: calc(100% / 12* 3);
 }
 
 .col-4{
@@ -81,6 +106,11 @@ body{
 
 .col-8{
     width: calc(100% / 12* 8);
+}
+
+.col-bottom{
+    width: 90%;
+    margin: auto;
 }
 
 /* #region header */
