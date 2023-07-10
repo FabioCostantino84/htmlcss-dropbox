@@ -20,13 +20,43 @@
     height: 400px;
 }
 
+.debug .menù{
+    background-color: rgba(245, 180, 180, 0.486);
+    height: 90%;
+    width: 98%;
+    margin: auto;
+    align-items: center;
+}
+.debug .menù_left, .menù_rigth{
+    background-color: gray;
+    height: 80%;
+    width: 45%;
+    align-items: center;
+}
+
 /* utilities */
 
+.d-flex{
+    display: flex;
+}
 
+.jc-s_bet{
+    justify-content: space-between;
+}
 
 /* #region header */
 
+#site_header{
+    height: 70px;
+}
 
+.menù{
+    align-items: center;
+}
+
+.menù_left, .menù_rigth{
+    align-items: center;
+}
 /* #endregion header */
 
 /* #region main */
