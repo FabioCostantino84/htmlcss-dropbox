@@ -20,13 +20,13 @@ section{
 
 .debug #site_main{
     background-color: lightblue;
-    height: 5000px;
+    height: 6000px;
     padding: 3rem 0;
 }
 
 .debug #site_footer{
     background-color: lightpink;
-    height: 400px;
+    height: 700px;
 }
 
 .debug .menù{
@@ -45,7 +45,7 @@ section{
 .debug .jumbotron{
     background-color: lightgreen;
     width: 98%;
-    height: 400px;
+    height: 600px;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ section{
 .debug .container_med{
     background-color: lightsalmon;
     width: 70%;
-    height: 98%;
+    height: 500px;
     margin: auto;
 }
 
@@ -108,6 +108,10 @@ section{
 
 .jc-s_bet{
     justify-content: space-between;
+}
+
+.col-2{
+    width: calc(100% / 10* 2);
 }
 
 .col-3{
