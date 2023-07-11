@@ -6,7 +6,9 @@
 }
 
 body{
+    min-width: 1440px;
     font-family: 'Open Sans', sans-serif;
+    font-size: small;
 }
 
 :root {
@@ -24,17 +26,18 @@ body{
     --drbx-square8: #FED831;
 }
 
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
 section{
     padding: 3rem 0;
 }
 
 /* debug */
-.debug #site_header{
-    background-color: lightgrey;
-    height: 70px;
-}
 
-.debug #site_main{
+#site_main{
     background-color: lightblue;
     height: 6000px;
     padding: 3rem 0;
@@ -45,15 +48,8 @@ section{
     height: 700px;
 }
 
-.debug .menù{
-    background-color: rgba(245, 180, 180, 0.486);
-    height: 90%;
-    width: 98%;
-    margin: auto;
-    align-items: center;
-}
+
 .debug .menù_left, .menù_rigth{
-    background-color: gray;
     height: 80%;
     width: 45%;
     align-items: center;
@@ -75,6 +71,7 @@ section{
     width: 70%;
     height: 500px;
     margin: auto;
+    max-width: 1170px;
 }
 
 .debug .container_small{
@@ -118,6 +115,10 @@ section{
     display: flex;
 }
 
+.align-items-center{
+    align-items: center;
+}
+
 .d-wrap{
     flex-wrap: wrap;
 }
@@ -128,6 +129,19 @@ section{
 
 .jc-end{
     justify-content: end;
+}
+
+.py-4{
+    padding: 2rem 2rem;
+}
+
+.list-unstyled{
+    list-style: none;
+}
+
+.btn-primary{
+    background-color: var(--drbx-accent);
+    color: var(--drbx-white);
 }
 
 .col-2{
@@ -158,7 +172,15 @@ section{
 /* #region header */
 
 #site_header{
-    height: 70px;
+    background-color: var(--drbx-white);
+    position: sticky;
+    top: 0;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 0 0 5px black;
+}
+
+nav a{
+    color: var(--drbx-black);
 }
 
 .menù{
