@@ -6,7 +6,7 @@
 }
 
 html{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 body{
@@ -33,7 +33,7 @@ img{
     max-width: 100%;
 }
 
-.jumbotron a, #site_header a,{
+.jumbotron a, #site_header a{
     text-decoration: none;
     padding: 0.5rem;
 }
@@ -48,18 +48,14 @@ p{
 }
 
 section{
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
-div i{
-    font-size: 12px;
-    padding: 0.5rem;
-}
+
 
 /* debug */
 
 #site_main{
-    background-color: lime;
     height: 6000px;
 }
 
@@ -77,20 +73,18 @@ div i{
 
 .debug .container_big{
     background-color: lightsalmon;
-    height: 500px;
+    height: 550px;
 }
 
 .debug .container_med{
     width: 70%;
-    height: 600px;
+    height: 570px;
     margin: auto;
     max-width: 1170px;
 }
 
 .debug .container_small{
-    background-color: lightsalmon;
     width: 60%;
-    height: 600px;
     margin: auto;
 }
 
@@ -107,14 +101,7 @@ div i{
 .debug .col{
     height: 98%;
     margin: 0;
-    border: 1px dashed black;
-    padding: 0 2rem;
-}
-
-.debug .col-bottom{
-    background-color: lightcoral;
-    height: 100px;
-    border: 1px dashed black
+    padding: 1.5rem 1.5rem;
 }
 
 .debug .col-6{
@@ -122,6 +109,18 @@ div i{
 }
 
 /* utilities */
+
+.position-rel{
+    position: relative;
+}
+
+.position-abs{
+    position: absolute;
+}
+
+.d-block{
+    display: block;
+}
 
 .d-flex{
     display: flex;
@@ -177,11 +176,16 @@ div i{
 }
 
 .col-bottom{
-    width: 90%;
+    width: 96%;
     margin: auto;
 }
 
 /* spacings */
+
+.py-1{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
 
 .py-2{
     padding-top: 1rem;
@@ -259,14 +263,37 @@ h6{
 
 .price{
     font-weight: 700;
+    padding: 0.5rem 0;
+}
+
+.sub-time{
+    padding-bottom: 3rem;
 }
 
 .card{
     border: 1px solid lightgray;
 }
 
-.type-card{
+.header-card{
     border-bottom: 1px solid lightgray;
+}
+
+.main-card{
+    padding: 0 1rem;
+    height: 670px;
+}
+
+.main-card h3, .main-card h6{
+    padding: 1rem 0;
+}
+
+.icon-main{
+    font-size: 12px;
+    padding: 0.5rem;
+}
+
+.orizontal-card{
+    padding: 0 1rem;
 }
 
 
