@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 0.9rem;
+}
+
 body{
     min-width: 1440px;
     font-family: 'Open Sans', sans-serif;
-    font-size: small;
 }
 
 :root {
@@ -26,9 +29,17 @@ body{
     --drbx-square8: #FED831;
 }
 
+img{
+    max-width: 100%;
+}
+
 a{
     text-decoration: none;
     padding: 0.5rem;
+}
+
+p{
+    line-height: 1.5rem;
 }
 
 section{
@@ -38,9 +49,8 @@ section{
 /* debug */
 
 #site_main{
-    background-color: lightblue;
+    background-color: lime;
     height: 6000px;
-    padding: 3rem 0;
 }
 
 .debug #site_footer{
@@ -54,12 +64,6 @@ section{
     width: 45%;
     align-items: center;
 }
-.debug .jumbotron{
-    background-color: lightgreen;
-    width: 98%;
-    height: 600px;
-    margin: auto;
-}
 
 .debug .container_big{
     background-color: lightsalmon;
@@ -67,9 +71,8 @@ section{
 }
 
 .debug .container_med{
-    background-color: lightsalmon;
     width: 70%;
-    height: 500px;
+    height: 550px;
     margin: auto;
     max-width: 1170px;
 }
@@ -82,7 +85,6 @@ section{
 }
 
 .debug .row{
-    background-color: lightgoldenrodyellow;
     width: 98%;
     height: 90%;
     margin: auto
@@ -94,7 +96,6 @@ section{
 
 .debug .col{
     height: 98%;
-    background-color: lightcoral;
     margin: 0;
     border: 1px dashed black
 }
@@ -131,10 +132,6 @@ section{
     justify-content: end;
 }
 
-.py-4{
-    padding: 2rem 2rem;
-}
-
 .list-unstyled{
     list-style: none;
 }
@@ -169,6 +166,17 @@ section{
     margin: auto;
 }
 
+/* spacings */
+
+.py-4{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-6{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 /* #region header */
 
 #site_header{
@@ -195,8 +203,20 @@ nav a{
 
 /* #region main */
 
+.jumbotron {
+    background-color: var(--drbx-bkgr-and-square6);
+    width: 100%;
+}
+
 h1{
-    text-align: center;
+    text-align: initial;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+i{
+    color: var(--drbx-black);
+    font-size: xx-large;
 }
 
 /* #endregion main */
