@@ -41,6 +41,17 @@ img{
 .btn-primary{
     text-decoration: none;
     padding: 0.5rem;
+    background-color: var(--drbx-accent);
+    color: var(--drbx-white);
+}
+
+.btn-scondary{
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: var(--drbx-white);
+    color: var(--drbx-black);
+    border: 1px solid gray;
+    box-shadow: 1px -1px 0px 0px #b3b2b2;
 }
 
 p{
@@ -150,10 +161,7 @@ section{
     list-style: none;
 }
 
-.btn-primary{
-    background-color: var(--drbx-accent);
-    color: var(--drbx-white);
-}
+
 
 .col-2{
     width: calc(100% / 10* 2);
@@ -181,6 +189,10 @@ section{
 }
 
 /* spacings */
+
+.partner .col-4{
+    padding: 5rem 1.5rem;
+}
 
 .py-1{
     padding-top: 0.5rem;
