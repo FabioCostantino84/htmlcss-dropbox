@@ -121,6 +121,27 @@ section{
 
 /* utilities */
 
+/* colors */
+
+.drbx-black {
+    background-color: var(--drbx-black);
+}
+    .drbx-white{
+        background-color: var(--drbx-white);
+    }
+    .drbx-bkgr-and-square6{
+        background-color: var(--drbx-bkgr-and-square6);
+    }
+    --drbx-accent: #0160FF;
+    --drbx-square1: #A3D39A;
+    --drbx-square2-alternativeFont: #60092B;
+    --drbx-square3: #0192CE;
+    --drbx-square4: #FE1C1D;
+    --drbx-big-square: #F5F4F4;
+    --drbx-square5: #D4011F;
+    --drbx-square7: #0D2580;
+    --drbx-square8: #FED831;
+
 .position-rel{
     position: relative;
 }
@@ -190,8 +211,8 @@ section{
 
 /* spacings */
 
-.partner .col-4{
-    padding: 5rem 1.5rem;
+.p-4{
+    padding: 2rem;
 }
 
 .py-1{
@@ -308,12 +329,30 @@ h6{
     padding: 0 1rem;
 }
 
+.partner .col-4{
+    padding: 5rem 1.5rem;
+}
+
 .spot_date a{
     color: var(--drbx-accent);
 }
 
 .spot_date .container_small{
     padding: 4rem 20rem 6rem 2rem;
+}
+
+.banner_bottom .square{
+    width: calc(100% / 3);
+    aspect-ratio: 1/1;
+}
+
+.small_square{
+    width: calc(100% / 2);
+    aspect-ratio: 1/1;
+}
+
+.center{
+    background-color: var(--drbx-big-square);
 }
 
 
