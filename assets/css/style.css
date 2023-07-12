@@ -308,6 +308,14 @@ h6{
     padding: 0 1rem;
 }
 
+.spot_date a{
+    color: var(--drbx-accent);
+}
+
+.spot_date .container_small{
+    padding: 4rem 20rem 6rem 2rem;
+}
+
 
 /* #endregion main */
 
