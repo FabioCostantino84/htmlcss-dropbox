@@ -55,6 +55,11 @@ img {
     box-shadow: 1px -1px 0px 0px #b3b2b2;
 }
 
+.btn-bg-white{
+    background-color: var(--drbx-white);
+    text-decoration: none;
+}
+
 p {
     line-height: 1.5rem;
 }
@@ -115,10 +120,6 @@ section {
     height: 98%;
     margin: 0;
     padding: 1.5rem 1.5rem;
-}
-
-.debug .col-6 {
-    border: 1px dashed black
 }
 
 /* utilities */
@@ -361,13 +362,17 @@ h6 {
     color: var(--drbx-accent);
 }
 
-.spot_date .container_small {
+.spot_date .container_small{
     padding: 4rem 20rem 6rem 2rem;
 }
 
 .banner_bottom .square {
     width: calc(100% / 3);
     aspect-ratio: 1/1;
+}
+
+.center hr{
+    background-color: 1px solid var(--drbx-black);
 }
 
 .small_square {
@@ -377,6 +382,32 @@ h6 {
 
 .small_square img{
     filter: invert(1);
+}
+.free_trial h2 {
+    color: var(--drbx-square2-alternativeFont);
+    padding-left: 2rem;
+    padding-bottom: 6rem;
+}
+
+.free_trial a{
+    color: var(--drbx-black);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.free_trial .col-4{
+    padding-bottom: 9rem;
+}
+
+.faq p{
+    display: none;
+}
+
+.faq:hover p{
+    display: block;
+}
+
+.faq:hover i{
+    rotate: 180deg;
 }
 
 
